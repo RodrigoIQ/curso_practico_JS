@@ -22,10 +22,18 @@ const triangle_height = 5.5;
 
 
 const triangle_perimeter  = triangle_side1+triangle_side2+triangle_base;
+const triangle_area =  ( triangle_height * triangle_area)/2
+
 
 console.log(`Sides of the triangle measure = ${triangle_side1} cm, `
 +`${triangle_side2} cm, `
 +`${base} cm, `);
 
 console.log(`triangle height = ${triangle_height} cm`);
+
+console.log(`trigle perimenter = ${triangle_perimeter} cm`);
+
+console.log(`triangle Area = ${triangle_area}`):
+
+
 console.groupEnd();
