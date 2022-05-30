@@ -37,3 +37,17 @@ console.log(`triangle Area = ${triangle_area}`):
 
 
 console.groupEnd();
+
+//Circle 
+console.group("Triangle");
+const radius = 4;
+const diameter = radius*4;
+const PI = Math.PI;
+
+const circumference = 2*PI*radius;
+const circle_area = PI*radius*radius;
+
+cond
+
+
+console.groupEnd();
