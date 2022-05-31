@@ -17,8 +17,8 @@ function squareArea(side){
 //console.log(`square area =${squareArea} cm`);
 console.groupEnd();
 
-// code for triangle 
-// console.group("Triangle")
+//code for triangle 
+ console.group("Triangle")
 // const triangle_side1 = 6;
 // const triangle_side2 = 6;
 // const triangle_base = 4;
@@ -49,19 +49,30 @@ console.groupEnd();
 
 //Circle 
 console.group("Circle");
-const radius = 4;
-const diameter = radius*2;
+// const radius = 4;
+// const diameter = radius*2;
 const PI = Math.PI;
 
-const circumference = 2*PI*radius;
-const circle_area = PI*radius*radius;
+function diameterCircle(radius){
+    return radius*2
+};
+
+function circumference(radius){
+    const diameter = diameterCircle(radius);
+    return PI*diameter
+};
+
+function circle_area(radius){
+    return PI*radius*radius
+};
+
 
 //Circle consle logs 
-console.log(`the radius of the circle is = ${radius}`);
-console.log(`the diameter of the circle is = ${diameter}`);
+// console.log(`the radius of the circle is = ${radius}`);
+// console.log(`the diameter of the circle is = ${diameter}`);
 
-console.log(`Circle circumference = ${circumference}`);
-console.log(`Circle area = ${circle_area}`);
+// console.log(`Circle circumference = ${circumference}`);
+// console.log(`Circle area = ${circle_area}`);
 
 
 
