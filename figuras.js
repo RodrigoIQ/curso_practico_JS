@@ -18,26 +18,31 @@ function squareArea(side){
 console.groupEnd();
 
 // code for triangle 
-console.group("Triangle")
-const triangle_side1 = 6;
-const triangle_side2 = 6;
-const triangle_base = 4;
-const triangle_height = 5.5;
+// console.group("Triangle")
+// const triangle_side1 = 6;
+// const triangle_side2 = 6;
+// const triangle_base = 4;
+// const triangle_height = 5.5;
+
+function triangle_perimeter(side1,side2,base){
+    return side1+side2+base
+};
+
+function triangle_area(height,base){
+    return (height*base)/2
+};
 
 
-const triangle_perimeter  = triangle_side1+triangle_side2+triangle_base;
-const triangle_area =  ( triangle_height * triangle_base)/2
 
+// console.log(`Sides of the triangle measure = ${triangle_side1} cm, `
+// +`${triangle_side2} cm, `
+// +`${triangle_base} cm, `);
 
-console.log(`Sides of the triangle measure = ${triangle_side1} cm, `
-+`${triangle_side2} cm, `
-+`${triangle_base} cm, `);
+// console.log(`triangle height = ${triangle_height} cm`);
 
-console.log(`triangle height = ${triangle_height} cm`);
+// console.log(`trigle perimenter = ${triangle_perimeter} cm`);
 
-console.log(`trigle perimenter = ${triangle_perimeter} cm`);
-
-console.log(`triangle Area = ${triangle_area}`);
+// console.log(`triangle Area = ${triangle_area}`);
 
 
 console.groupEnd();
