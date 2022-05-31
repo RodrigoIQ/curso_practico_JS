@@ -1,16 +1,20 @@
 // code for square lenght, area, perimeter
 console.group("square")
-const squarelength = 5;
+// const squarelength = 5;
 
-console.log(`square leght = ${squarelength} cm`);
+// console.log(`square leght = ${squarelength} cm`);
 
-const squerePerimeter = squarelength*4;
+function squarePerimeter(side){
+    return side*4
+};
 
-console.log(`squer Perimenter =  ${squerePerimeter} cm`);
+// console.log(`squer Perimenter =  ${squerePerimeter} cm`);
 
-const squareArea = squarelength*squarelength;
+function squareArea(side){
+    return side*side
+};
 
-console.log(`square area =${squareArea} cm`);
+//console.log(`square area =${squareArea} cm`);
 console.groupEnd();
 
 // code for triangle 
