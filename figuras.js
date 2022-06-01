@@ -43,13 +43,23 @@ function circle_area(radius){
     return PI*radius*radius
 };
 
-
-
 console.groupEnd();
-
 
 
 //Interact with html
 
+function getSquarePerimeter(){
+    const input = document.getElementById("InputSquare");
+    const value = input.value;
+    const perimeter = squarePerimeter(value);
+    alert(perimeter)
+};
+
+function getSquareArea(){
+    const input = document.getElementById("InputSquare");
+    const value = input.value;
+    const perimeter = squareArea(value);
+    alert(perimeter)
+};
 
 
