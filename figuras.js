@@ -77,3 +77,19 @@ function get_circle_perimeter(){
     const perimeter = circumference(value);
     alert(perimeter);
 };
+
+//Triangle formulas
+
+function get_Triangle_area(){
+    const height = document.getElementById("inputheight");
+    const base = document.getElementById("inputBase");
+    const area = triangle_area(base,height);
+    alert(area);
+};
+
+function get_Triangle_Perimeter(){
+    const side1 = document.getElementById("side2");
+    const side2 = document.getElementById("side1");
+    const base = document.getElementById("inputBase");
+    const perimeter = triangle_perimeter(side1,side2,base);
+}
