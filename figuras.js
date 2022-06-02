@@ -48,6 +48,7 @@ console.groupEnd();
 
 //Interact with html
 
+//SQUARE FORMULAS 
 function getSquarePerimeter(){
     const input = document.getElementById("InputSquare");
     const value = input.value;
@@ -62,4 +63,17 @@ function getSquareArea(){
     alert(perimeter)
 };
 
+//CICLE FORMULAS 
+function get_circle_area(){
+    const input = document.getElementById("InputRadius");
+    const value = input.value;
+    const area = circle_area(value);
+    alert(area);
+};
 
+function get_circle_perimeter(){
+    const input = document.getElementById("InputRadius");
+    const value = input.value;
+    const perimeter = circumference(value);
+    alert(perimeter);
+};
