@@ -23,8 +23,7 @@ function triangle_area(height,base){
     return (height*base)/2
 };
 
-const test = triangle_area(5,10)
-console.log(test)
+
 
 console.groupEnd();
 
@@ -87,6 +86,7 @@ function get_Triangle_area(){
     const height = document.getElementById("inputheight");
     const base = document.getElementById("inputBase");
     const area = triangle_area(height,base);
+    console.log(`base =${base}, height = ${height}`)
     alert(area);
 };
 
