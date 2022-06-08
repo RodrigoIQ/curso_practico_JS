@@ -23,6 +23,9 @@ function triangle_area(height,base){
     return (height*base)/2
 };
 
+const test = triangle_area(5,10)
+console.log(test)
+
 console.groupEnd();
 
 
