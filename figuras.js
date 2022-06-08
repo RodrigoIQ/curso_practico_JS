@@ -87,13 +87,13 @@ function get_Triangle_area(){
     const input_base = document.getElementById("inputBase");
     const value_base = input_base.value;
     const value_height =  input_height.value;
-    const area = triangle_area(height,base);
+    const area = triangle_area(value_height,value_base);
     alert(area);
 };
 
 function get_Triangle_Perimeter(){
-    const side1 = document.getElementById("side2");
-    const side2 = document.getElementById("side1");
-    const base = document.getElementById("inputBase");
+    const side1 = document.getElementById("side2").value;
+    const side2 = document.getElementById("side1").value;
+    const base = document.getElementById("inputBase").value;
     const perimeter = triangle_perimeter(side1,side2,base);
 }
