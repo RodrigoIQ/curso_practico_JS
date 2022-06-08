@@ -83,10 +83,11 @@ function get_circle_perimeter(){
 //Triangle formulas
 
 function get_Triangle_area(){
-    const height = document.getElementById("inputheight");
-    const base = document.getElementById("inputBase");
+    const input_height = document.getElementById("inputheight");
+    const input_base = document.getElementById("inputBase");
+    const value_base = input_base.value;
+    const value_height =  input_height.value;
     const area = triangle_area(height,base);
-    console.log(`base =${base}, height = ${height}`)
     alert(area);
 };
 
