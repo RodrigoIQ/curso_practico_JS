@@ -96,5 +96,6 @@ function get_Triangle_Perimeter(){
     const side2 = number(document.getElementById("inputSide1").value);
     const base = number(document.getElementById("inputBase").value);
     const perimeter = triangle_perimeter(side1,side2,base);
+    console.log(perimeter)
     alert(perimeter);
 }
