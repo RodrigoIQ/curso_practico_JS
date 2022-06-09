@@ -92,8 +92,8 @@ function get_Triangle_area(){
 };
 
 function get_Triangle_Perimeter(){
-    const side1 = document.getElementById("side2").value;
-    const side2 = document.getElementById("side1").value;
+    const side1 = document.getElementById("inputSide2").value;
+    const side2 = document.getElementById("inputSide1").value;
     const base = document.getElementById("inputBase").value;
     const perimeter = triangle_perimeter(side1,side2,base);
     alert(perimeter)
