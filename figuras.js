@@ -99,3 +99,12 @@ function get_Triangle_Perimeter(){
     console.log(perimeter);
     alert(perimeter);
 };
+
+function triangle_heigt(){
+	//formuka sqrt((side1*side1) - ((base*base)/4))
+	const side1 = Number(document.getElementById("inputSide1"));
+	const base = Number(document.getElementByID("inputBase"));
+	
+	const height = Math.sqrt(((side1*side1)-((base*base)/4));
+	alert(height)
+} 
