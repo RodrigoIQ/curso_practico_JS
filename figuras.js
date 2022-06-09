@@ -105,6 +105,6 @@ function triangle_heigt(){
 	const side1 = Number(document.getElementById("inputSide1"));
 	const base = Number(document.getElementByID("inputBase"));
 	
-	const height = Math.sqrt(((side1*side1)-((base*base)/4));
+	const height = Math.sqrt(((side1*side1)-((base*base)/4)));
 	alert(height)
 } 
