@@ -3,5 +3,6 @@
 function Discounted_price(){
         //product_price, discount_percentage
         const product_price = document.getElementById("product_price").value;
-        console.log(product_price);
+        const discount_percentage =  document.getElementById("discount_percentage").value;
+        console.log(product_price * discount_percentage);
 };
