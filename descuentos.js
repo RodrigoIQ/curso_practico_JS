@@ -2,6 +2,6 @@
 
 function Discounted_price(){
         //product_price, discount_percentage
-        const product_price = document.getElementById("product_price");
+        const product_price = document.getElementById("product_price").value;
         console.log(product_price);
 };
