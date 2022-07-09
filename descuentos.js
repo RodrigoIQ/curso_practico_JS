@@ -11,5 +11,5 @@ function get_Discounted_price(){
         const discount_percentage =  document.getElementById("discount_percentage").value;
         const result_Paragraf = document.getElementById("ResultPrice");
         const discount=discount_price(product_price,discount_percentage);
-        resul_Paragraf.innerText = `Product price is ${product_price} with discount it is ${discount}`
+        result_Paragraf.innerText = `Product price is ${product_price} with discount it is ${discount}`
 };
