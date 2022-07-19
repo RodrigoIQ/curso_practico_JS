@@ -12,7 +12,7 @@ function calculate_average(ListOfNumbers){
         }
     );
 
-    const average = sum_listOfNumbers/ListOfNumbers.lenght;
-    return average
+    const average1 = sum_listOfNumbers/ListOfNumbers.lenght;
+    return average1;
 
 }
