@@ -8,7 +8,7 @@ listOfNumbers2 = [15,3,2]
 function calculate_average(ListOfNumbers){
     const sumlistOfNumbers = ListOfNumbers.reduce(
         function (sumvalue = 0, newvalue){
-            return sumvalue + newvalue;
+            return sumvalue + newvalue
         }   
     );
 
