@@ -6,8 +6,7 @@ const listOFnumbersMedian = [1,2,3,4,5]
 // sort list -- future step 
 
 const listLenght = listOFnumbersMedian.length;
-console.log(`list has ${listLenght} items`)
-
+console.log(`list has ${listLenght} items the median is ${listOFnumbersMedian[3]}`)
 
 // if (list is odd){
 
