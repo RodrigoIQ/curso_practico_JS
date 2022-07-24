@@ -6,13 +6,13 @@ const listOFnumbersMedian = [1,2,3,4,5]
 // sort list -- future step 
 
 const listLenght = listOFnumbersMedian.length;
-console.log(`list has ${listLenght} items the median is ${listLenght%2}`)
+console.log(`list has ${listLenght} items the median is ${listLenght%2}`);
 
 
-//if (list is){
-
-//     // get the number in the midel 
-    
-// } else if (list is even){
+if (listLenght%2 == 1  ){ 
+ 
+    // get the number in the midel 
+    console.log("list is odd") ;
+}// else if (list is even){
 //     // calulate the averege of the 2 numbes midel numbers 
 // } ;
