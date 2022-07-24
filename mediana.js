@@ -11,8 +11,10 @@ console.log(`list has ${listLenght} items the median is ${listLenght%2}`);
 
 if (listLenght%2 == 1  ){ 
  
-    // get the number in the midel 
-    console.log("list is odd") ;
+    // get the number in the midel
+    //list start counting at 0 so i dont need to add one 
+    midelNumber= ~~(listLenght/2)
+    console.log(`list is odd ${midelNumber}`) ;
 }// else if (list is even){
 //     // calulate the averege of the 2 numbes midel numbers 
 // } ;
