@@ -6,13 +6,13 @@ listOfNumbers2 = [15,3,2]
 
 // function for average 
 function calculate_average(ListOfNumbers){
-    const sum_listOfNumbers = ListOfNumbers.reduce(
-        function (sum_value = 0, new_value){
-            return sum_value + new_value;
+    const sumlistOfNumbers = ListOfNumbers.reduce(
+        function (sumvalue = 0, newvalue){
+            return sumvalue + newvalue;
         }   
     );
 
-    const average1 = sum_listOfNumbers/ListOfNumbers.lenght;
+    const average1 = sumlistOfNumbers/ListOfNumbers.lenght;
     return average1;
 
 }
