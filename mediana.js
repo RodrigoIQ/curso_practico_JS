@@ -1,6 +1,6 @@
 // this file is to calcuale the median of a list of numbers 
 
-const listOFnumbersMedian = [1,2,3,4,5]
+const listOFnumbersMedian = [1,2,3,4]
 
 // calculating a median has 2 options if the list is even or odd 
 // sort list -- future step 
@@ -19,8 +19,9 @@ if (listLenght%2 == 1  ){
 else if (listLenght%2 == 0){
     // calulate the averege of the 2 numbes midel numbers 
     // get the 2 center numbers 
+    const average =  (listOFnumbersMedian[midelNumber]+listOFnumbersMedian[midelNumber-1])/2
+    console.log(`list is even median is ${average}`) ;
     
 
 } ;
 
-console.log(`list has ${listLenght} items the median is ${listLenght%2}`);
