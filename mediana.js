@@ -7,8 +7,8 @@
 
 
 //make a function from existing code 
-function calculateMedian(listOfNumbers2){
-    const listOfNumbers = listOfNumbers2.sort();
+function calculateMedian(listOfNumbers){
+    listOfNumbers.sort();
     console.log(listOfNumbers);
     const listLenght = listOfNumbers.length;
     const midelNumber= ~~(listLenght/2)
