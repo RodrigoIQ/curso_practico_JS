@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap" rel="stylesheet">
+
+    <title>My ordert</title>
+    <style>
+        :root{
+            --Very-light-pink: #c7c7c7;
+            --text-input-field: #F7F7F7;
+            --Hospital-green: #ACD9B2;
+            --white: #FFFFFF;
+            --black: #000000;
+            /* Font size*/
+            --sm: 14px;
+            --md: 16px;
+            --lg: 18px;
+
+        }
+        body{
+            font-family: "Quicksand", serif;
+            margin: 0;
+        }
+        .My-order{
+            width: 100%;
+            height: 100vh;
+            display: grid;
+            place-items: center;
+        }
+        .title{
+            font-size: var(--lg);
+            margin-bottom: 40px;
+        }
+        .order{
+            display: grid;
+            grid-template-columns: auto 1fr;
+            background-color: var(--text-input-field);
+            align-items: center;
+            margin-bottom: 16px;
+            border-radius: 8px;
+            padding: 0 24px;
+        }
+        .order p:nth-child(1){
+            display: flex;
+            flex-direction: column;
+        }
+
+        .order p span:nth-child(1){
+            font-size: var(--md);
+            font-weight: 700;
+        }
+        .order p span:nth-child(2){
+            font-size: var(--sm);
+            color: var(--Very-light-pink);
+        }
+
+        .order p:nth-child(2){
+            text-align: end;
+            font-weight: 700;
+        }
+        .My-order-conteiner{
+            display: grid;
+            grid-template-rows: auto 1fr auto;
+            width: 300px;
+            gap: 16px
+
+        }
+        .My-order-content{
+            display: flex;
+            flex-direction: column;
+
+        }
+        .shopping-cart{
+            display: grid;
+            grid-template-columns: auto 1fr auto auto;
+            gap: 16px;
+            margin-bottom: 24px;
+            align-items: center;
+        }
+        .shopping-cart figure{
+            margin: 0;
+        }
+        .shopping-cart figure img{
+            width: 70px;
+            height: 70px;
+            border-radius: 10px;
+        }
+        .shopping-cart p:nth-child(2){
+            color: var(--Very-light-pink);
+        }
+        .shopping-cart p:nth-child(3){
+            font-size: var(--md);
+            font-weight: 700;
+        }
+
+
+    </style>
+
+</head>
+<body>
+    <div class ="My-order">
+            
+        
+        <div class="My-order-conteiner">
+            <h1 class="title">My orders</h1>
+            <div class="order">
+                <p>
+                    <span>03-01-2025</span>
+                    <span>6 articles</span>
+                </p>
+                <p>
+                    $560.00
+                </p>
+            </div>
+                <div class="shopping-cart">
+                    <figure>
+                        <img src="https://images.pexels.com/photos/1592384/pexels-photo-1592384.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="car">
+                    </figure>
+                    <p>Car</p>
+                    <p>$3,000</p>
+                </div>
+            
+                    <div class="shopping-cart">
+                        <figure>
+                            <img src="https://images.pexels.com/photos/1592384/pexels-photo-1592384.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="car">
+                        </figure>
+                        <p>Car</p>
+                        <p>$3,000</p>
+                    </div>
+        
+                        <div class="shopping-cart">
+                            <figure>
+                                <img src="https://images.pexels.com/photos/1592384/pexels-photo-1592384.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="car">
+                            </figure>
+                            <p>Car</p>
+                            <p>$3,000</p>
+                        </div>
+                        <div class="My-order-content">
+                            <div class="shopping-cart">
+                                <figure>
+                                    <img src="https://images.pexels.com/photos/1592384/pexels-photo-1592384.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="car">
+                                </figure>
+                                <p>Car</p>
+                                <p>$3,000</p>
+                            </div>
+                         </div>
+
+        </div>
+    </div>
+    
+</body>
+</html>
